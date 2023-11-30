@@ -261,6 +261,18 @@
       <DependentUpon>formm.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
+    <Compile Include="Pharmacist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacist.Designer.cs">
+      <DependentUpon>Pharmacist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\UC_P_AddMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\UC_P_AddMedicine.Designer.cs">
+      <DependentUpon>UC_P_AddMedicine.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Administrator.resx">
@@ -280,6 +292,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formm.resx">
       <DependentUpon>formm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacist.resx">
+      <DependentUpon>Pharmacist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\UC_P_AddMedicine.resx">
+      <DependentUpon>UC_P_AddMedicine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
