@@ -47,9 +47,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(81, 288);
+            this.label1.Location = new System.Drawing.Point(72, 230);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 59);
+            this.label1.Size = new System.Drawing.Size(131, 49);
             this.label1.TabIndex = 1;
             this.label1.Text = "Admin";
             // 
@@ -58,9 +58,9 @@
             this.userNameLabel.AutoSize = true;
             this.userNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userNameLabel.ForeColor = System.Drawing.Color.White;
-            this.userNameLabel.Location = new System.Drawing.Point(96, 979);
+            this.userNameLabel.Location = new System.Drawing.Point(85, 783);
             this.userNameLabel.Name = "userNameLabel";
-            this.userNameLabel.Size = new System.Drawing.Size(118, 40);
+            this.userNameLabel.Size = new System.Drawing.Size(101, 36);
             this.userNameLabel.TabIndex = 7;
             this.userNameLabel.Text = "B-A-P";
             this.userNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -76,9 +76,10 @@
             this.panel1.Controls.Add(this.btnDashboard);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(-11, -28);
+            this.panel1.Location = new System.Drawing.Point(-10, -22);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(293, 1107);
+            this.panel1.Size = new System.Drawing.Size(260, 886);
             this.panel1.TabIndex = 2;
             // 
             // guna2Button5
@@ -90,9 +91,10 @@
             this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
-            this.guna2Button5.Location = new System.Drawing.Point(25, 690);
+            this.guna2Button5.Location = new System.Drawing.Point(22, 552);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(268, 45);
+            this.guna2Button5.Size = new System.Drawing.Size(238, 36);
             this.guna2Button5.TabIndex = 6;
             this.guna2Button5.Text = "Đăng xuất";
             // 
@@ -105,9 +107,10 @@
             this.btnProfile.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProfile.ForeColor = System.Drawing.Color.White;
             this.btnProfile.Image = ((System.Drawing.Image)(resources.GetObject("btnProfile.Image")));
-            this.btnProfile.Location = new System.Drawing.Point(25, 614);
+            this.btnProfile.Location = new System.Drawing.Point(22, 491);
+            this.btnProfile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(268, 45);
+            this.btnProfile.Size = new System.Drawing.Size(238, 36);
             this.btnProfile.TabIndex = 5;
             this.btnProfile.Text = "Trang cá nhân";
             // 
@@ -120,9 +123,10 @@
             this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.Location = new System.Drawing.Point(25, 540);
+            this.guna2Button3.Location = new System.Drawing.Point(22, 432);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(268, 45);
+            this.guna2Button3.Size = new System.Drawing.Size(238, 36);
             this.guna2Button3.TabIndex = 4;
             this.guna2Button3.Text = "Xem User";
             // 
@@ -135,9 +139,10 @@
             this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
-            this.guna2Button2.Location = new System.Drawing.Point(25, 459);
+            this.guna2Button2.Location = new System.Drawing.Point(22, 367);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(268, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(238, 36);
             this.guna2Button2.TabIndex = 3;
             this.guna2Button2.Text = "Thêm User";
             // 
@@ -150,32 +155,36 @@
             this.btnDashboard.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
-            this.btnDashboard.Location = new System.Drawing.Point(22, 387);
+            this.btnDashboard.Location = new System.Drawing.Point(20, 310);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(268, 45);
+            this.btnDashboard.Size = new System.Drawing.Size(238, 36);
             this.btnDashboard.TabIndex = 2;
             this.btnDashboard.Text = "Trang chủ";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(43, 60);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 48);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(224, 198);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 158);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // Administrator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1924, 1050);
+            this.ClientSize = new System.Drawing.Size(1710, 840);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Administrator";
             this.Text = "Administrator";
+            this.Load += new System.EventHandler(this.Administrator_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
